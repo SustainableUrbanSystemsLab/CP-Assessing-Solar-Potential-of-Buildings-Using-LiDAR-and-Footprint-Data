@@ -40,9 +40,9 @@ The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-
 
 1. Before starting Grasshopper make, sure to **open** the *ScriptEditor* and **run** the following script to import *numpy*, *pandas*, and *laspy*:
    
-    <img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/select script editor.PNG" width="300px">
+    <img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/select script editor.PNG" height="200px">
 
-    <img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/run script in editor.PNG" width="300px">
+    <img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/run script in editor.PNG" height="200px">
 
     Code snippet:
 
@@ -63,7 +63,7 @@ The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-
    
    Using the ```# r: %package name%``` notation:
             
-       <img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/install and import package Rhino 8.PNG" width="300px">
+   <img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/install and import package Rhino 8.PNG" width="300px">
        
 
 
