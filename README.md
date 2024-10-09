@@ -67,7 +67,7 @@ The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-
        
 
 
-    See also this [tutorial](https://developer.rhino3d.com/guides/scripting/scripting-command/#using-packages) for using packages in Rhino 8)
+    See also this [tutorial](https://developer.rhino3d.com/guides/scripting/scripting-command/#using-packages) for using packages in Rhino 8
 
 5. To run the script make sure the following packages are installed and can be imported properly:
     ```python
