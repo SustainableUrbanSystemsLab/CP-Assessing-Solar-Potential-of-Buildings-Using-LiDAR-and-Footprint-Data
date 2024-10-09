@@ -6,9 +6,6 @@
 
 The mass adoption of building-integrated photovoltaics (BIPV) emerges as a promising solution for reducing global greenhouse gas (GHG) emissions. However, using such systems to achieve net zero operational energy at the urban scale requires evaluating the solar potential of thousands of buildings which poses many challenges concerning data availability, quality, and privacy. To address these issues, we present an automated end-to-end framework for querying, combining, and processing publicly available aerial Light Detection and Ranging (LiDAR) and Building Footprint data. Using open-source algorithms for geometry reconstruction and solar radiation analysis, we show how to estimate the maximum annual direct current (DC) electricity yield per building. This framework is designed to enable urban planners, developers, and architects to assess the solar potential of neighborhoods and cities in an accessible way. By enabling effective communication of results, it can help optimize resource allocation and benefit solar adoption initiatives.
 
-## Presentation
-
-
 ## Author
 
 - Name: [Silvia Vangelova](mailto:vangelova@ibi.baug.ethz.ch)
