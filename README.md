@@ -21,8 +21,9 @@ The mass adoption of building-integrated photovoltaics (BIPV) emerges as a promi
 ## Repository Structure
 
 - `Code/`: Directory containing the code, scripts, or notebooks used in the research.
-  - `Grasshopper`: Directory containing the grasshopper definition
-  - `Notebooks`: Directory containing notebooks
+  - `Grasshopper/`: Directory containing the grasshopper definition
+  - `Notebooks/`: Directory containing notebooks
+    - `data/`: Directory for storing data produced from running the Notebooks
 - `Resources/`: Directory containing images used in this README.md file.
 - `README.md`: This file, providing an overview of the thesis and repository.
 
