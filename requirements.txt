@@ -9,3 +9,5 @@ cgal
 requests
 rasterio
 geopandas
+ipykernel
+osmnx

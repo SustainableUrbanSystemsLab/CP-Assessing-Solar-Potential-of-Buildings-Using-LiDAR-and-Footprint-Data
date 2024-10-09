@@ -3,6 +3,7 @@
 *.las
 *.gdb
 *.zip
+*.tif
 GA_Structures.gdb/
 Notebooks/cache
 
