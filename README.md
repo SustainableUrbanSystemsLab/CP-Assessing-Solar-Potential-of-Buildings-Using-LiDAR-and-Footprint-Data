@@ -40,9 +40,9 @@ The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-
 
 1. Before starting Grasshopper make, sure to **open** the *ScriptEditor* and **run** the following script to import *numpy*, *pandas*, and *laspy*:
    
-    ![alt text](<resources/select script editor.PNG>)
+    <img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/select script editor.PNG" width="300px">
 
-    ![alt text](<resources/run script in editor.PNG>)
+    <img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/run script in editor.PNG" width="300px">
 
     Code snippet:
 
@@ -54,7 +54,7 @@ The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-
     import laspy
     ```
 
-2. To install python packages in Rhino 8 you can either install them from the Terminal or use the ```# r: %package name%``` notation
+3. To install python packages in Rhino 8 you can either install them from the Terminal or use the ```# r: %package name%``` notation
    
    Using Terminal
       1. Open command prompt
@@ -63,12 +63,13 @@ The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-
    
    Using the ```# r: %package name%``` notation:
             
-       ![alt text](<resources/install and import package Rhino 8.PNG>)
+       <img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/install and import package Rhino 8.PNG" width="300px">
+       
 
 
     See also this [tutorial](https://developer.rhino3d.com/guides/scripting/scripting-command/#using-packages) for using packages in Rhino 8)
 
-3. To run the script make sure the following packages are installed and can be imported properly:
+5. To run the script make sure the following packages are installed and can be imported properly:
     ```python
     rasterio
     laspy
