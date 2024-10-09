@@ -1,10 +1,14 @@
 # A Computational Framework for Assessing Solar Photovoltaic Potential of Buildings Based on LiDAR and Building Footprint Data
 
-<img src="https://raw.githubusercontent.com/kastnerp/MT-3D-Heat-Transfer-Analysis-in-Architectural-Modeling/main/LaTeX/Figures/newvalleg1.png" width="500px">
+<img src="resources/methods overview.jpg" width="500px">
 
 ## Abstract
 
 The mass adoption of building-integrated photovoltaics (BIPV) emerges as a promising solution for reducing global greenhouse gas (GHG) emissions. However, using such systems to achieve net zero operational energy at the urban scale requires evaluating the solar potential of thousands of buildings which poses many challenges concerning data availability, quality, and privacy. To address these issues, we present an automated end-to-end framework for querying, combining, and processing publicly available aerial Light Detection and Ranging (LiDAR) and Building Footprint data. Using open-source algorithms for geometry reconstruction and solar radiation analysis, we show how to estimate the maximum annual direct current (DC) electricity yield per building. This framework is designed to enable urban planners, developers, and architects to assess the solar potential of neighborhoods and cities in an accessible way. By enabling effective communication of results, it can help optimize resource allocation and benefit solar adoption initiatives.
+
+## Keywords
+
+`BIPV, Performance-based design, Photovoltaic potential, Spatial data processing, Renewable energy, Urban planning`
 
 ## Author
 
@@ -17,11 +21,67 @@ The mass adoption of building-integrated photovoltaics (BIPV) emerges as a promi
 ## Repository Structure
 
 - `Code/`: Directory containing the code, scripts, or notebooks used in the research.
+  - `Grasshopper`: Directory containing the grasshopper definition
+  - `Notebooks`: Directory containing notebooks
+- `Resources/`: Directory containing images used in this README.md file.
 - `README.md`: This file, providing an overview of the thesis and repository.
 
-## Keywords
+## Instructions for reconstructing mesh geometry in Jupyter Notebook 
 
-`BIPV, Performance-based design, Photovoltaic potential, Spatial data processing, Renewable energy, Urban planning`
+Environment set-up:
+  - python -m venv env  
+  - env\Scripts\activate
+  - pip install -r requirements.txt
+
+## Running the Solar Potential Analysis script in Grsshopper instructions
+
+The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-08-15) on Windows. For this version, there are certain issues when importing pandas (see forum discussion [here](https://discourse.mcneel.com/t/rhino-8-i-cant-import-pandas-in-rhinos-scripteditor/168547/32))
+
+1. Before starting Grasshopper make, sure to **open** the *ScriptEditor* and **run** the following script to import *numpy*, *pandas*, and *laspy*:
+   
+    ![alt text](<resources/select script editor.PNG>)
+
+    ![alt text](<resources/run script in editor.PNG>)
+
+    Code snippet:
+
+    ```python
+    import locale
+    import numpy
+    locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
+    import pandas as pd
+    import laspy
+    ```
+
+2. To install python packages in Rhino 8 you can either install them from the Terminal or use the ```# r: %package name%``` notation
+   
+   Using Terminal
+      1. Open command prompt
+      2. Navigate to script environment, e.g. run: ```cd "C:\Users\%UserName%\.rhinocode\py39-rh8\Scripts"```
+      3. Instal packages, e.g. run ```pip install pandas```
+   
+   Using the ```# r: %package name%``` notation:
+            
+       ![alt text](<resources/install and import package Rhino 8.PNG>)
+
+
+    See also this [tutorial](https://developer.rhino3d.com/guides/scripting/scripting-command/#using-packages) for using packages in Rhino 8)
+
+3. To run the script make sure the following packages are installed and can be imported properly:
+    ```python
+    rasterio
+    laspy
+    lazrs
+    laszip
+    geopy
+    scikit-learn
+    scipy
+    cgal
+    requests
+    rasterio
+    geopandas
+   ```
+
 
 ## Citation
 
