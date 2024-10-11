@@ -6,6 +6,7 @@
 *.tif
 GA_Structures.gdb/
 Notebooks/cache
+Code/Grasshopper/data/osm_cache
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
