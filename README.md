@@ -39,7 +39,7 @@ Environment set-up:
 
 ## Running the Solar Potential Analysis script in Grsshopper instructions
 
-<p align="center"><img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/Grasshopper%20canvas%20guide.png" height="200px"></p>
+<p align="center"><img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/Grasshopper%20canvas%20guide.png" height="400px"></p>
 
 The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-08-15) on Windows. For this version, there are certain issues when importing pandas (see forum discussion [here](https://discourse.mcneel.com/t/rhino-8-i-cant-import-pandas-in-rhinos-scripteditor/168547/32))
 
