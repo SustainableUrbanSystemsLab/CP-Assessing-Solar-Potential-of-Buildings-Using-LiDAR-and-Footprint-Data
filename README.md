@@ -100,8 +100,9 @@ The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-
   year = {2024},
   booktitle = {Proceedings of SIGRADI 2024},
   institution = {Georgia Institute of Technology},
-  bibtex_show       = {true},
-  preview           = {SIGRADI2024.png},
+  bibtex_show = {true},
+  preview = {SIGRADI2024.png},
+  isbn = 978-9915-9635-2-5
 }
 ```
 
