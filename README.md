@@ -1,6 +1,6 @@
 # A Computational Framework for Assessing Solar Photovoltaic Potential of Buildings Based on LiDAR and Building Footprint Data
 
-<p align="center"><img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/methods%20overview.jpg" width="500px"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/SustainableUrbanSystemsLab/CP-SIGRADI2024-Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/refs/heads/main/Figures/GraphicalAbstract.jpg" width="500px"></p>
 
 
 ## Abstract
@@ -33,21 +33,22 @@ The mass adoption of building-integrated photovoltaics (BIPV) emerges as a promi
 ## Instructions for reconstructing mesh geometry in Jupyter Notebook 
 
 Environment set-up:
-  - python -m venv env  
-  - env\Scripts\activate
-  - pip install -r requirements.txt
 
-## Running the Solar Potential Analysis script in Grsshopper instructions
+- python -m venv env  
+- env\Scripts\activate
+- pip install -r requirements.txt
 
-<p align="center"><img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/Grasshopper%20canvas%20guide.png" height="400px"></p>
+## Running the Solar Potential Analysis script in Grasshopper instructions
+
+<p align="center"><img src="https://raw.githubusercontent.com/SustainableUrbanSystemsLab/CP-SIGRADI2024-Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/refs/heads/main/Figures/GrasshopperCanvasGuide.png" height="400px"></p>
 
 The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-08-15) on Windows. For this version, there are certain issues when importing pandas (see forum discussion [here](https://discourse.mcneel.com/t/rhino-8-i-cant-import-pandas-in-rhinos-scripteditor/168547/32))
 
 1. Before starting Grasshopper make, sure to **open** the *ScriptEditor* and **run** the following script to import *numpy*, *pandas*, and *laspy*:
    
-    <img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/select script editor.PNG" height="200px">
+    <img src="https://raw.githubusercontent.com/SustainableUrbanSystemsLab/CP-SIGRADI2024-Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/refs/heads/main/Figures/SelectScriptEditor.png" height="200px">
 
-    <img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/run script in editor.PNG" height="200px">
+    <img src="https://raw.githubusercontent.com/SustainableUrbanSystemsLab/CP-SIGRADI2024-Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/refs/heads/main/Figures/RunScriptInEditor.png" height="200px">
 
     Code snippet:
 
@@ -59,7 +60,7 @@ The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-
     import laspy
     ```
 
-3. To install python packages in Rhino 8 you can either install them from the Terminal or use the ```# r: %package name%``` notation
+2. To install Python packages in Rhino 8 you can either install them from the Terminal or use the ```# r: %package name%``` notation
    
    Using Terminal
       1. Open command prompt
@@ -68,13 +69,13 @@ The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-
    
    Using the ```# r: %package name%``` notation:
             
-   <img src="https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/blob/main/Resources/install and import package Rhino 8.PNG" width="300px">
+   <img src="https://raw.githubusercontent.com/SustainableUrbanSystemsLab/CP-SIGRADI2024-Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/refs/heads/main/Figures/InstallAndImportPackageRhino8.png" width="300px">
        
 
 
     See also this [tutorial](https://developer.rhino3d.com/guides/scripting/scripting-command/#using-packages) for using packages in Rhino 8
 
-5. To run the script make sure the following packages are installed and can be imported properly:
+3. To run the script make sure the following packages are installed and can be imported properly:
     ```python
     rasterio
     laspy
@@ -96,7 +97,7 @@ The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-
 ```bibtex
 @inproceedings{vangelova2024sigradi,
   title = {A Computational Framework for Assessing Solar Photovoltaic Potential of Buildings Based on LiDAR and Building Footprint Data},
-  author = {Vangelova, Silvia},
+  author = {Vangelova, Silvia and Kastner, Patrick},
   year = {2024},
   booktitle = {Proceedings of SIGRADI 2024},
   institution = {Georgia Institute of Technology},
