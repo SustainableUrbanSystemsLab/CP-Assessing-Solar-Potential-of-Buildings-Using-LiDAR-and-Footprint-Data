@@ -106,7 +106,3 @@ The grasshopper definition is developed in Rhino 8 SR10 (8.10.24228.13001, 2024-
   isbn = 978-9915-9635-2-5
 }
 ```
-
-## Source
-
-[Link](https://github.com/SustainableUrbanSystemsLab/Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data) to this repository.
