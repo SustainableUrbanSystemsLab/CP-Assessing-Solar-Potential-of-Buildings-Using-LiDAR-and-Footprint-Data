@@ -1,6 +1,6 @@
 # A Computational Framework for Assessing Solar Photovoltaic Potential of Buildings Based on LiDAR and Building Footprint Data
 
-<p align="center"><img src="https://raw.githubusercontent.com/SustainableUrbanSystemsLab/CP-SIGRADI2024-Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/refs/heads/main/Figures/GraphicalAbstract.jpg" width="500px"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/SustainableUrbanSystemsLab/CP-SIGRADI2024-Assessing-Solar-Potential-of-Buildings-Using-LiDAR-and-Footprint-Data/refs/heads/main/Figures/GraphicalAbstract.jpg" width="600px"></p>
 
 
 ## Abstract
